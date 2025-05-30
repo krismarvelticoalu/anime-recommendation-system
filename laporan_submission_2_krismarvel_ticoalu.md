@@ -21,6 +21,8 @@ Sistem rekomendasi yang dibuat akan dievaluasi menggunakan metrik yang ditentuka
 ## Data Understanding
 Dataset yang digunakan pada proyek ini adalah [Anime Recommendation Database 2020](https://www.kaggle.com/datasets/hernan4444/anime-recommendation-database-2020/data?select=rating_complete.csv) yang dipublikasikan melalui situs [Kaggle](https://www.kaggle.com/). Terdapat beberapa file csv yaitu anime.csv, anime_with_synopsis.csv, animelist.csv, rating_complete.csv, dan watching_status.csv. File yang digunakan dalam proyek ini adalah anime.csv. Jumlah sampel atau baris data pada anime.csv adalah 17562 baris dengan 35 kolom. Kondisi data sangat baik, tidak ada missing value maupun data duplikat setelah dicek menggunakan **.isnull().sum()** dan **.duplicated().sum()**.
 ![](https://images2.imgbox.com/8e/fc/gADtegoh_o.png) 
+![](https://images2.imgbox.com/2b/5a/9cjYlhMw_o.png) 
+![](https://images2.imgbox.com/8b/a3/G60LNynJ_o.png) 
 Dataset dikumpulkan dengan web scraping yang telah dilakukan pada rentang waktu 26 Februari 2020 hingga 20 Maret 2020.
 
 ### Variabel-variabel pada dataset anime.csv adalah sebagai berikut:
