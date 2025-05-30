@@ -62,13 +62,6 @@ Dataset dikumpulkan dengan web scraping yang telah dilakukan pada rentang waktu 
 - **Score-2:** jumlah pengguna yang mendapat skor 2. (misalnya 741)
 - **Score-1**: jumlah pengguna yang mendapat skor 1. (misalnya 1580)
 
-### Variabel-variabel pada dataset animelist.csv adalah sebagai berikut:
-- **user_id**: ID pengguna yang dibuat secara acak dan tidak dapat diidentifikasi.
-- **anime_id**: ID MyAnimeList dari anime tersebut. (misalnya 1).
-- **score**: skor antara 1 hingga 10 yang diberikan oleh pengguna. 0 jika pengguna tidak memberikan skor. (misalnya 10)
-- **watching_status**: ID status dari anime ini dalam daftar anime pengguna ini. (misalnya 2)
-- **watched_episodes**: jumlah episode yang ditonton oleh pengguna. (misalnya 24)
-
 ### Exploratory Data Analysis
 - **Visualisasi distribusi rating anime**
 ![](https://images2.imgbox.com/7c/00/SrT5Mfcn_o.png)
