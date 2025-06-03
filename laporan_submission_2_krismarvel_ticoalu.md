@@ -21,8 +21,11 @@ Sistem rekomendasi yang dibuat akan dievaluasi menggunakan metrik yang ditentuka
 ## Data Understanding
 Dataset yang digunakan pada proyek ini adalah [Anime Recommendation Database 2020](https://www.kaggle.com/datasets/hernan4444/anime-recommendation-database-2020/data?select=rating_complete.csv) yang dipublikasikan melalui situs [Kaggle](https://www.kaggle.com/). Terdapat beberapa file csv yaitu anime.csv, anime_with_synopsis.csv, animelist.csv, rating_complete.csv, dan watching_status.csv. File yang digunakan dalam proyek ini adalah anime.csv. Jumlah sampel atau baris data pada anime.csv adalah 17562 baris dengan 35 kolom. Kondisi data sangat baik, tidak ada missing value maupun data duplikat setelah dicek menggunakan **.isnull().sum()** dan **.duplicated().sum()**.
 ![](https://images2.imgbox.com/8e/fc/gADtegoh_o.png) 
+
 ![](https://images2.imgbox.com/2b/5a/9cjYlhMw_o.png) 
+
 ![](https://images2.imgbox.com/8b/a3/G60LNynJ_o.png) 
+
 Dataset dikumpulkan dengan web scraping yang telah dilakukan pada rentang waktu 26 Februari 2020 hingga 20 Maret 2020.
 
 ### Variabel-variabel pada dataset anime.csv adalah sebagai berikut:
@@ -64,17 +67,23 @@ Dataset dikumpulkan dengan web scraping yang telah dilakukan pada rentang waktu 
 
 ### Exploratory Data Analysis
 - **Visualisasi distribusi rating anime**
+
 ![](https://images2.imgbox.com/7c/00/SrT5Mfcn_o.png)
+
 **Insight:**
 Dapat dilihat pada visualisasi di atas, rating anime paling banyak adalah "PG-13 - Teens 13 or older" atau bisa dikatakan remaja yang berumur 13 tahun ke atas. Rating anime terbanyak kedua adalah all ages artinya semua umur. Secara berurutan, rating anime terbanyak berikutnya adalah "PG - Children" atau anak-anak, "Rx - Hentai" atau anime panas khusus dewasa, "R - 17+ (violence & profanity) artinya mengandung kekerasan dan untuk umur 17 ke atas, dan terakhir adalah "R+ - Mild Nudity" artinya terdapat sedikit adegan yang menampilkan ketelanjangan.
 
 - **Visualisasi distribusi tipe anime**
+
 ![](https://images2.imgbox.com/19/8c/s2VJ3mvU_o.png)
+
 **Insight:**
 Berdasarkan visualisasi data di atas, tipe anime paling banyak adalah TV (anime yang tayang di TV) diikuti dengan OVA (dipublikasikan langsung dalam format video), Movie (anime yang tampil di layar lebar), Special (biasanya episode ekstra daripada seri anime yang ada), ONA (anime yang dipublikasikan langsung di internet), dan Music (anime yang merupakan video musik, musik latar belakang, dsb)
 
 - **Visualisasi distribusi sumber adaptasi anime**
+
 ![](https://images2.imgbox.com/e9/cb/cQEksbHQ_o.png)
+
 **Insight:**
 Berdasarkan visualisasi data di atas, dapat dilihat bahwa sumber adaptasi anime paling banyak adalah Original artinya anime tidak diadaptasikan dari sumber manapun dan langsung dipublikasikan sebagai anime. Sumber adaptasi paling banyak berikutnya adalah Manga (komik jepang) dan diikuti oleh Visual Novel, Game, Light Novel, Other (lainnya/selain yang disebutkan), Novel, Music, 4-koma Manga, Web Manga, Picture book, Book, Card game, Digital manga, dan terakhir adalah Radio.
 
