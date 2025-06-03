@@ -177,11 +177,12 @@ tfidf_matrix.todense()
 # Kolom diisi dengan genre
 # Baris diisi dengan nama anime
 
-pd.DataFrame(
+matrix_df = pd.DataFrame(
     tfidf_matrix.todense(),
     columns=tf.get_feature_names_out(),
     index=data.anime_name
 ).sample(10, axis=0)
+matrix_df
 
 """Menghitung cosine similarity pada matrix tf-idf"""
 
