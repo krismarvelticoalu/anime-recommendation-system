@@ -232,6 +232,9 @@ Solusi pengembangan sistem rekomendasi dengan pendekatan content-based filtering
 
 **Daftar Pustaka**:
 [1] P. Brzeski, “How Japanese Anime Became the World’s Most Bankable Genre,” The Hollywood Reporter, May 17, 2022. https://www.hollywoodreporter.com/business/business-news/japanese-anime-worlds-most-bankable-genre-1235146810/
+
 [2] J. Chen, “The Investigation on Anime-Themed Recommendation Systems,” Highlights in Science Engineering and Technology, vol. 81, pp. 121–131, Jan. 2024, doi: https://doi.org/10.54097/36drh331.
+
 [3] Dicoding Indonesia, “Content Based Filtering | Machine Learning Terapan | Dicoding Indonesia,” Dicoding.com, 2017. https://www.dicoding.com/academies/319/tutorials/17116 (accessed May 30, 2025).
+
 **---Ini adalah bagian akhir laporan---**
